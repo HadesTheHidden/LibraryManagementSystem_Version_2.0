@@ -19,6 +19,7 @@ public class Loan implements Serializable {
 	 * Parameter:member(Member) :- the member borrowing the book
 	 * Parameter:book(Book) :- the book being borrowed
 	 */
+	
 	public Loan(Member member, Book book) {
 		this.member = member;
 		this.book = book;
