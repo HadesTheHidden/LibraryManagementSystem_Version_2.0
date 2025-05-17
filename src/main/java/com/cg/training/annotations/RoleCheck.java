@@ -19,5 +19,11 @@ public @interface RoleCheck {
      * Defaults to "Admin".
      * Returns: The required role as a String
      */
+	
+	
+    /**
+     * @return Returns the value of the role set and "Admin" by default.
+     * @author Deeptangshu and Hades
+     */
     String role() default "Admin";
 }
